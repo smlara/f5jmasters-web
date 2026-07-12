@@ -1,0 +1,23 @@
+---
+permalink: /index.html
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>F5J Masters</title>
+    <script>
+      (function () {
+        var supported = ['es', 'en', 'pt', 'fr'];
+        var saved = localStorage.getItem('f5j-lang');
+        var lang = saved && supported.indexOf(saved) !== -1
+          ? saved
+          : (navigator.language || 'en').slice(0, 2).toLowerCase();
+        var target = supported.indexOf(lang) !== -1 ? lang : 'en';
+        location.replace('/' + target + '/');
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

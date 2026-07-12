@@ -1,0 +1,19 @@
+node_modules/
+_site/
+
+# Secrets — FTP credentials and similar live only locally
+.env
+.env.production
+
+# WordPress thumbnail variants (files with a -NNNxNNN size suffix). The
+# canonical images (masters2022-NNN.jpg) are committed; these resized copies
+# are not, and the gallery build ignores them anyway.
+src/assets/photos/**/*-[0-9]*x[0-9]*.jpg
+src/assets/photos/**/*-[0-9]*x[0-9]*.png
+src/assets/logos/*-[0-9]*x[0-9]*.png
+src/assets/logos/*-[0-9]*x[0-9]*.png.webp
+src/assets/logos/*.webp
+
+# OS / editor
+.DS_Store
+.idea/

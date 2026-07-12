@@ -1,0 +1,77 @@
+{% set lang = lang or 'en' %}
+{% set L = t[lang] %}
+{% set langs = ['en', 'es', 'pt', 'fr'] %}
+{% set langLabels = { en: 'EN', es: 'ES', pt: 'PT', fr: 'FR' } %}
+<!doctype html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ L.meta.description }}" />
+    <title>{{ L.meta.title }}</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    {% for l in langs %}<link rel="alternate" hreflang="{{ l }}" href="/{{ l }}/" />
+    {% endfor %}<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="/styles.css?v={{ buildId }}" />
+  </head>
+  <body>
+    <nav id="main-nav">
+      <div class="container nav-inner">
+        <a href="/{{ lang }}/" class="nav-home">F5J Masters</a>
+
+        <div class="nav-right">
+          <div class="nav-links" id="nav-links">
+            <a href="/{{ lang }}/#resultados">{{ L.nav.results }}</a>
+            <a href="/{{ lang }}/#galeria">{{ L.nav.gallery }}</a>
+            <a href="/{{ lang }}/#ediciones">{{ L.nav.editions }}</a>
+            <a href="/{{ lang }}/#alojamiento">{{ L.nav.accommodation }}</a>
+            <div class="lang-switcher">
+              {% for l in langs %}{% if l == lang %}<span class="lang-active">{{ langLabels[l] }}</span>{% else %}<a href="/{{ l }}/" class="lang-item" data-lang="{{ l }}">{{ langLabels[l] }}</a>{% endif %}{% endfor %}
+            </div>
+          </div>
+
+          <button class="nav-burger" id="nav-burger" aria-label="Menú" aria-expanded="false">
+            <svg id="icon-burger" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="6"  x2="21" y2="6"/>
+              <line x1="3" y1="12" x2="21" y2="12"/>
+              <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+            <svg id="icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none">
+              <line x1="18" y1="6"  x2="6" y2="18"/>
+              <line x1="6"  y1="6" x2="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <strong>F5J Masters · Escalona del Prado</strong>
+          <a href="mailto:info@f5jmasters.com">info@f5jmasters.com</a>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.facebook.com/f5jmasters" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <a href="https://x.com/f5jmasters" target="_blank" rel="noopener" aria-label="X / Twitter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <span class="fai-badge">FAI</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>

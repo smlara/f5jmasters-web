@@ -1,0 +1,13 @@
+# Patrocinadores. El logo es una ruta dentro de /assets/logos/.
+- name: GliderKeeper
+  logo: /assets/logos/gliderkeeper.png
+- name: GliderCG
+  logo: /assets/logos/glidercg.png
+- name: iHobbies
+  logo: /assets/logos/ihobbies.png
+- name: BrutePower
+  logo: /assets/logos/brutepower.png
+- name: Celestino Arribas
+  logo: /assets/logos/celestino-arribas.png
+- name: FACL
+  logo: /assets/logos/facl.png

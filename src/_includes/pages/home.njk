@@ -1,0 +1,174 @@
+{% set lang = lang or 'en' %}
+{% set L = t[lang] %}
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">{{ L.hero.eyebrow }}</p>
+    <div class="hero-brand">
+      <img src="/assets/logo.png" alt="F5J Masters" class="hero-logo" />
+      <div class="hero-titles">
+        <p class="title-sponsor">GliderKeeper</p>
+        <h1 class="title">F5J Masters</h1>
+      </div>
+    </div>
+    <p class="desc">{{ L.hero.desc }}</p>
+    <div class="ctas">
+      <a href="#resultados" class="btn-dark">{{ L.hero.ctaResults }}</a>
+      <a href="#galeria" class="btn-blue">{{ L.hero.ctaGallery }}</a>
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-n blue">XIV</span>
+        <span class="stat-l">{{ L.hero.statEdition }}</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">60</span>
+        <span class="stat-l">{{ L.hero.statPilots }}</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">2</span>
+        <span class="stat-l">{{ L.hero.statDays }}</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">Anual</span>
+        <span class="stat-l">{{ L.hero.statAnnual }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRÓXIMA EDICIÓN ══ -->
+<div class="next-band">
+  <div class="container next-inner">
+    <div>
+      <strong>{{ L.nextBand.title }}</strong>
+      <span>{{ L.nextBand.subtitle }}</span>
+    </div>
+    <a href="mailto:info@f5jmasters.com?subject={{ L.nextBand.emailSubject }}" class="next-btn">{{ L.nextBand.cta }}</a>
+  </div>
+</div>
+
+<!-- ══ RESULTADOS ══ -->
+<section id="resultados" class="sec">
+  <div class="container">
+    <span class="sec-label">{{ L.results.label }}</span>
+    <div class="podium">
+      {% for p in [1, 2, 3] %}
+      <div class="podium-item{% if p == 1 %} first{% endif %}">
+        <span class="pos{% if p == 1 %} blue{% endif %}">{{ p }}</span>
+        <span class="pname">—</span>
+        <span class="pclub">—</span>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="doc-links">
+      <a href="/assets/results/GliderKeeper-F5J-Masters-Escalona-2026-Classifying_singlepage.pdf" target="_blank" class="doc-link">{{ L.results.fullClass }}</a>
+      <a href="/assets/results/GliderKeeper-F5J-Masters-Escalona-2026-FlyOffScores.pdf" target="_blank" class="doc-link">{{ L.results.flyoff }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GALERÍA ══ -->
+<section id="galeria" class="sec sec-alt">
+  <div class="container">
+    <span class="sec-label">{{ L.gallery.label2026 }}</span>
+    {% if gallery.photos2026.length %}
+    <div class="gallery">
+      {% for src in gallery.photos2026 %}
+      <a href="{{ src }}" class="glightbox gallery-thumb" data-gallery="2026" data-description="{{ L.gallery.caption2026 }}">
+        <img src="{{ src }}" alt="{{ L.gallery.caption2026 }}" loading="lazy" />
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="gallery-coming">{{ L.gallery.coming }}</p>
+    {% endif %}
+
+    <div class="gallery-archive">
+      <span class="sec-label" style="margin-top: 2rem;">{{ L.gallery.label2022 }}</span>
+      <div class="gallery">
+        {% for src in gallery.photos2022 %}
+        <a href="{{ src }}" class="glightbox gallery-thumb" data-gallery="2022" data-description="{{ L.gallery.caption2022 }}">
+          <img src="{{ src }}" alt="{{ L.gallery.caption2022 }}" loading="lazy" />
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EL CONCURSO + CÓMO LLEGAR ══ -->
+<section class="sec sec-split">
+  <div class="container split">
+    <div class="split-col">
+      <span class="sec-label">{{ L.contest.label }}</span>
+      <p>{{ L.contest.p1 }}</p>
+      <p>{{ L.contest.p2 }}</p>
+      <p>{{ L.contest.p3 }}</p>
+    </div>
+    <div class="split-col">
+      <span class="sec-label">{{ L.location.label }}</span>
+      <a href="https://maps.google.com/?q=41.1627,-4.1393" target="_blank" rel="noopener" class="map-link">
+        <div class="map-box">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0069c0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>{{ L.location.mapsLabel }}</span>
+        </div>
+      </a>
+      <address>
+        Escalona del Prado, Segovia<br />
+        <small>41°09'45.6"N · 4°08'21.6"W</small>
+      </address>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ALOJAMIENTO ══ -->
+<section id="alojamiento" class="sec sec-alt">
+  <div class="container">
+    <span class="sec-label">{{ L.accommodation.label }}</span>
+    <div class="acc-grid">
+      <div class="acc-card">
+        <h3>El Zaguán</h3>
+        <p>{{ L.accommodation.zaguanDesc }}</p>
+      </div>
+      <div class="acc-card">
+        <h3>{{ L.accommodation.ruralName }}</h3>
+        <p>{{ L.accommodation.ruralDesc }}</p>
+      </div>
+      <div class="acc-card">
+        <h3>{{ L.accommodation.campingName }}</h3>
+        <p>{{ L.accommodation.campingDesc }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EDICIONES ANTERIORES ══ -->
+<section id="ediciones" class="sec">
+  <div class="container">
+    <span class="sec-label">{{ L.editions.label }}</span>
+    <div class="editions">
+      {% for e in editions %}
+      <span class="edition{% if e.current %} edition-current{% endif %}">{{ e.year }} · {{ e.numeral }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ══ SPONSORS ══ -->
+<section class="sec sec-alt">
+  <div class="container">
+    <span class="sec-label">{{ L.sponsors.label }}</span>
+    <div class="sponsors">
+      {% for s in sponsors %}
+      <div class="sponsor">
+        <img src="{{ s.logo }}" alt="{{ s.name }}" />
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+# Ediciones del F5J Masters (más reciente primero). La marcada como current
+# se resalta en la sección "Ediciones anteriores".
+- year: 2026
+  numeral: XIV
+  current: true
+- year: 2025
+  numeral: XIII
+- year: 2024
+  numeral: XII
+- year: 2023
+  numeral: XI
+- year: 2022
+  numeral: X
+- year: 2019
+  numeral: IX
+- year: 2018
+  numeral: VIII
+- year: 2017
+  numeral: VII
+- year: 2016
+  numeral: VI
+- year: 2015
+  numeral: V
+- year: 2014
+  numeral: IV
+- year: 2013
+  numeral: III
+- year: 2012
+  numeral: II
+- year: 2011
+  numeral: I

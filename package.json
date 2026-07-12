@@ -1,0 +1,15 @@
+{
+  "name": "f5jmasters-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F5J Masters website — Eleventy static site (ES/EN/PT/FR)",
+  "scripts": {
+    "dev": "eleventy --serve --port=8080",
+    "start": "eleventy --serve --port=8080",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

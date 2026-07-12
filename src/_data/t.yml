@@ -1,0 +1,214 @@
+# Textos de interfaz en los cuatro idiomas. Edita los valores, no los nombres
+# de campo. Cada idioma comparte exactamente la misma estructura.
+
+es:
+  meta:
+    title: "GliderKeeper F5J Masters 2026"
+    description: "F5J Masters — Competición anual de veleros eléctricos F5J en Escalona del Prado, Segovia. Desde 2011."
+  nav:
+    results: "Resultados"
+    gallery: "Galería"
+    editions: "Ediciones"
+    accommodation: "Alojamiento"
+  hero:
+    eyebrow: "25 – 26 Abril 2026 · Escalona del Prado, Segovia"
+    desc: "XIV edición. Dos jornadas de vuelo F5J en la pista de Escalona del Prado, con pilotos llegados de toda Europa. Aforo de 60 participantes. Se requiere licencia FAI en vigor."
+    ctaResults: "Resultados 2026 →"
+    ctaGallery: "Galería de fotos →"
+    statEdition: "Edición"
+    statPilots: "Pilotos"
+    statDays: "Días de vuelo"
+    statAnnual: "Anual · Desde 2011"
+  nextBand:
+    title: "Nos vemos en 2027 en Escalona del Prado"
+    subtitle: "La XV edición ya tiene fecha — estate atento"
+    cta: "Avisos por email →"
+    emailSubject: "Avisos%20XV%20edici%C3%B3n%20F5J%20Masters"
+  results:
+    label: "Resultados 2026"
+    fullClass: "Clasificación completa →"
+    flyoff: "Resultados fly-off →"
+  gallery:
+    label2026: "Galería · 2026"
+    label2022: "Edición 2022 · X"
+    coming: "Las fotos de la edición 2026 se añadirán en breve."
+    caption2022: "F5J Masters 2022 · X edición"
+    caption2026: "F5J Masters 2026"
+  contest:
+    label: "El concurso"
+    p1: "El F5J Masters se celebra cada año en la pista de Escalona del Prado, Segovia. La categoría F5J engloba veleros eléctricos de hasta 4 metros de envergadura, con uso del motor limitado a 30 segundos por vuelo."
+    p2: "La primera edición fue en 2011. Las ediciones de 2020 y 2021 se suspendieron por la pandemia. La edición de 2026 ha sido la XIV."
+    p3: "El concurso cuenta con pilotos habituales de España y de varios países europeos, y organiza sus vuelos con la aplicación GliderLink para el seguimiento y puntuación en tiempo real."
+  location:
+    label: "Cómo llegar"
+    mapsLabel: "Abrir en Google Maps"
+  accommodation:
+    label: "Alojamiento cercano"
+    zaguanDesc: "Escalona del Prado · aprox. 50€/noche"
+    ruralName: "Casas rurales"
+    ruralDesc: "Zona Segovia · varios precios y capacidades"
+    campingName: "Camping en pista"
+    campingDesc: "8.000 m² disponibles en el campo de vuelo"
+  editions:
+    label: "Ediciones anteriores"
+  sponsors:
+    label: "Patrocinadores"
+
+en:
+  meta:
+    title: "GliderKeeper F5J Masters 2026"
+    description: "F5J Masters — Annual F5J electric sailplane competition at Escalona del Prado, Segovia. Since 2011."
+  nav:
+    results: "Results"
+    gallery: "Gallery"
+    editions: "Editions"
+    accommodation: "Accommodation"
+  hero:
+    eyebrow: "April 25–26, 2026 · Escalona del Prado, Segovia"
+    desc: "XIV edition. Two days of F5J flying at the Escalona del Prado airfield, with pilots from across Europe. Capacity of 60 participants. Valid FAI licence required."
+    ctaResults: "2026 Results →"
+    ctaGallery: "Photo gallery →"
+    statEdition: "Edition"
+    statPilots: "Pilots"
+    statDays: "Flying days"
+    statAnnual: "Annual · Since 2011"
+  nextBand:
+    title: "See you in 2027 at Escalona del Prado"
+    subtitle: "XV edition coming — stay tuned"
+    cta: "Email alerts →"
+    emailSubject: "Alerts%20XV%20edition%20F5J%20Masters"
+  results:
+    label: "2026 Results"
+    fullClass: "Full classification →"
+    flyoff: "Fly-off results →"
+  gallery:
+    label2026: "Gallery · 2026"
+    label2022: "2022 Edition · X"
+    coming: "Photos from the 2026 edition will be added shortly."
+    caption2022: "F5J Masters 2022 · X edition"
+    caption2026: "F5J Masters 2026"
+  contest:
+    label: "The contest"
+    p1: "F5J Masters takes place every year at Escalona del Prado, Segovia. The F5J class covers electric sailplanes up to 4 metres wingspan, with motor use limited to 30 seconds per flight."
+    p2: "The first edition was in 2011. The 2020 and 2021 editions were cancelled due to the pandemic. The 2026 edition was the XIV."
+    p3: "The event regularly draws pilots from Spain and several European countries, using the GliderLink app for real-time tracking and scoring."
+  location:
+    label: "Getting there"
+    mapsLabel: "Open in Google Maps"
+  accommodation:
+    label: "Nearby accommodation"
+    zaguanDesc: "Escalona del Prado · approx. €50/night"
+    ruralName: "Rural houses"
+    ruralDesc: "Segovia area · various prices and capacities"
+    campingName: "On-site camping"
+    campingDesc: "8,000 m² available at the flying field"
+  editions:
+    label: "Previous editions"
+  sponsors:
+    label: "Sponsors"
+
+pt:
+  meta:
+    title: "GliderKeeper F5J Masters 2026"
+    description: "F5J Masters — Competição anual de planadores elétricos F5J em Escalona del Prado, Segóvia. Desde 2011."
+  nav:
+    results: "Resultados"
+    gallery: "Galeria"
+    editions: "Edições"
+    accommodation: "Alojamento"
+  hero:
+    eyebrow: "25–26 de Abril de 2026 · Escalona del Prado, Segóvia"
+    desc: "XIV edição. Dois dias de voo F5J no campo de Escalona del Prado, com pilotos de toda a Europa. Capacidade de 60 participantes. Licença FAI válida obrigatória."
+    ctaResults: "Resultados 2026 →"
+    ctaGallery: "Galeria de fotos →"
+    statEdition: "Edição"
+    statPilots: "Pilotos"
+    statDays: "Dias de voo"
+    statAnnual: "Anual · Desde 2011"
+  nextBand:
+    title: "Até 2027 em Escalona del Prado"
+    subtitle: "A XV edição já tem data — fique atento"
+    cta: "Alertas por email →"
+    emailSubject: "Alertas%20XV%20edi%C3%A7%C3%A3o%20F5J%20Masters"
+  results:
+    label: "Resultados 2026"
+    fullClass: "Classificação completa →"
+    flyoff: "Resultados fly-off →"
+  gallery:
+    label2026: "Galeria · 2026"
+    label2022: "Edição 2022 · X"
+    coming: "As fotos da edição de 2026 serão adicionadas em breve."
+    caption2022: "F5J Masters 2022 · X edição"
+    caption2026: "F5J Masters 2026"
+  contest:
+    label: "O concurso"
+    p1: "O F5J Masters realiza-se todos os anos no campo de Escalona del Prado, Segóvia. A categoria F5J engloba planadores elétricos até 4 metros de envergadura, com o uso do motor limitado a 30 segundos por voo."
+    p2: "A primeira edição foi em 2011. As edições de 2020 e 2021 foram suspensas devido à pandemia. A edição de 2026 foi a XIV."
+    p3: "O concurso conta com pilotos regulares de Espanha e de vários países europeus, organizando os voos com a aplicação GliderLink para seguimento e pontuação em tempo real."
+  location:
+    label: "Como chegar"
+    mapsLabel: "Abrir no Google Maps"
+  accommodation:
+    label: "Alojamento próximo"
+    zaguanDesc: "Escalona del Prado · aprox. 50€/noite"
+    ruralName: "Casas rurais"
+    ruralDesc: "Zona Segóvia · vários preços e capacidades"
+    campingName: "Campismo no campo"
+    campingDesc: "8.000 m² disponíveis no campo de voo"
+  editions:
+    label: "Edições anteriores"
+  sponsors:
+    label: "Patrocinadores"
+
+fr:
+  meta:
+    title: "GliderKeeper F5J Masters 2026"
+    description: "F5J Masters — Compétition annuelle de planeurs électriques F5J à Escalona del Prado, Ségovie. Depuis 2011."
+  nav:
+    results: "Résultats"
+    gallery: "Galerie"
+    editions: "Éditions"
+    accommodation: "Hébergement"
+  hero:
+    eyebrow: "25–26 avril 2026 · Escalona del Prado, Ségovie"
+    desc: "XIVe édition. Deux jours de vol F5J sur le terrain d'Escalona del Prado, avec des pilotes venus de toute l'Europe. Capacité de 60 participants. Licence FAI en cours de validité obligatoire."
+    ctaResults: "Résultats 2026 →"
+    ctaGallery: "Galerie photos →"
+    statEdition: "Édition"
+    statPilots: "Pilotes"
+    statDays: "Jours de vol"
+    statAnnual: "Annuel · Depuis 2011"
+  nextBand:
+    title: "Rendez-vous en 2027 à Escalona del Prado"
+    subtitle: "La XVe édition arrive — restez informés"
+    cta: "Alertes par email →"
+    emailSubject: "Alertes%20XVe%20%C3%A9dition%20F5J%20Masters"
+  results:
+    label: "Résultats 2026"
+    fullClass: "Classement complet →"
+    flyoff: "Résultats fly-off →"
+  gallery:
+    label2026: "Galerie · 2026"
+    label2022: "Édition 2022 · X"
+    coming: "Les photos de l'édition 2026 seront ajoutées prochainement."
+    caption2022: "F5J Masters 2022 · Xe édition"
+    caption2026: "F5J Masters 2026"
+  contest:
+    label: "Le concours"
+    p1: "Le F5J Masters se tient chaque année sur le terrain d'Escalona del Prado, Ségovie. La catégorie F5J regroupe les planeurs électriques jusqu'à 4 mètres d'envergure, avec une utilisation du moteur limitée à 30 secondes par vol."
+    p2: "La première édition remonte à 2011. Les éditions 2020 et 2021 ont été annulées en raison de la pandémie. L'édition 2026 était la XIVe."
+    p3: "Le concours rassemble des pilotes réguliers d'Espagne et de plusieurs pays européens, et organise ses vols avec l'application GliderLink pour le suivi et le score en temps réel."
+  location:
+    label: "Comment s'y rendre"
+    mapsLabel: "Ouvrir dans Google Maps"
+  accommodation:
+    label: "Hébergement à proximité"
+    zaguanDesc: "Escalona del Prado · environ 50€/nuit"
+    ruralName: "Maisons rurales"
+    ruralDesc: "Zone de Ségovie · prix et capacités variés"
+    campingName: "Camping sur place"
+    campingDesc: "8 000 m² disponibles sur le terrain de vol"
+  editions:
+    label: "Éditions précédentes"
+  sponsors:
+    label: "Sponsors"
