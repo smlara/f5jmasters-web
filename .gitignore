@@ -17,3 +17,7 @@ src/assets/logos/*.webp
 # OS / editor
 .DS_Store
 .idea/
+
+# Claude Code: versionar la guía del proyecto en este repo (anula el ignore
+# global de ~/.gitignore, que excluye CLAUDE.md en todos los proyectos).
+!CLAUDE.md
