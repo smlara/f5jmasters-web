@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#d4dde8"/>
+  <rect x="280" y="200" width="240" height="180" rx="8" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+  <circle cx="400" cy="272" r="38" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+  <circle cx="400" cy="272" r="22" fill="#8fa8c0" opacity=".5"/>
+  <rect x="355" y="210" width="90" height="18" rx="4" fill="#8fa8c0" opacity=".4"/>
+  <text x="400" y="430" font-family="system-ui,sans-serif" font-size="18" fill="#6a8aaa" text-anchor="middle">Entrega de trofeos</text>
+  <text x="400" y="458" font-family="system-ui,sans-serif" font-size="13" fill="#8fa8c0" text-anchor="middle">F5J Masters 2026</text>
+</svg>
